@@ -1,4 +1,4 @@
-# Algorithm-practice
+# algorithm-practice
 
 ## 1、Linked List
 * 【206】Reverse Linked List
