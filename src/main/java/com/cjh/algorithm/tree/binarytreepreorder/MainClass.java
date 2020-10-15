@@ -1,4 +1,5 @@
-package com.cjh.algorithm.tree.binarytreeinorder;
+package com.cjh.algorithm.tree.binarytreepreorder;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +9,8 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * Created by cjh on 2020/10/9.
+ * 二叉树的前序遍历
+ * Created by cjh on 2020/10/15.
  */
 public class MainClass {
     public static TreeNode stringToTreeNode(String input) {
@@ -78,7 +80,7 @@ public class MainClass {
         while ((line = in.readLine()) != null) {
             TreeNode root = stringToTreeNode(line);
 
-            List<Integer> ret = new Solution1().inorderTraversal(root);
+            List<Integer> ret = new Solution1().preorderTraversal(root);
 
             String out = integerArrayListToString(ret);
 

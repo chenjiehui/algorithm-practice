@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 递归解法
  * Created by cjh on 2020/10/9.
  */
-public class Solution {
+public class Solution1 {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
